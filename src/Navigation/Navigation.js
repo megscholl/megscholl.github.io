@@ -8,13 +8,13 @@ const Navigation = (props) => {
     <div className="nav">
       <Nav className="navigation-inline">
           <NavItem >
-            <NavLink className="navigation-links" href="#">Link</NavLink>
+            <NavLink className="navigation-links" href="#">About Me</NavLink>
           </NavItem>
           <NavItem >
-            <NavLink className="navigation-links" href="#">Link</NavLink>
+            <NavLink className="navigation-links" href="#">Contact</NavLink>
           </NavItem>
           <NavItem >
-            <NavLink className="navigation-links" href="#">Link</NavLink>
+            <NavLink className="navigation-links" href="#">Blog</NavLink>
           </NavItem>
       </Nav>
     </div>

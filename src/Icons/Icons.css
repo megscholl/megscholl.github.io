@@ -26,7 +26,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
 
       .icon-logo {
-        height: 35vmin;
+        height: 30vmin;
         pointer-events: none;
         margin: 2em;
       }

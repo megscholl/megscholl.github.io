@@ -7,34 +7,34 @@
 }
 
 .navigation-links {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #792d57 !important;
+    background-color: #fff8fb !important;
 }
 
 .navigation-links:hover {
     color: #792d57;
     font-weight: bold;
     background-color: #fff8fb !important;
+    text-decoration: underline !important;
 }
 
 .navigation-links:active {
-    font-size: 1em;
     color: #792d57;
     background-color: #fff8fb !important;
-    text-decoration: line-through !important; 
+    font-weight: bold !important;
+    text-decoration: underline;
 }
 
 .navigation-links:visited {
-    font-size: 1em;
     color: #792d57;
     background-color: #fff8fb !important;
-    font-weight: bolder !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
 
 .navigation-inline {
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
+    align-items: center;
 }
 
 
@@ -44,6 +44,7 @@
     and (max-device-width: 480px)
     and (-webkit-min-device-pixel-ratio: 2) {
   
+
         .nav {
             display: flex;
             justify-content: space-evenly;

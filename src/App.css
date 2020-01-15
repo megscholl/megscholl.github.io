@@ -24,10 +24,10 @@
   color: #792d57;
 }
 
-h1 {
+h1, h3, h4 {
   font-family: 'Bitter', serif !important;
 }
 
-.float-l-img {
-  float: left;
+h2, p, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
 }

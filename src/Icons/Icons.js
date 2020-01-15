@@ -14,10 +14,15 @@ function Icons() {
     sortIcons();
     return (
         <div>
-            <a href="google.com" alt="" title="" className="icon-hover"><img src={Design} className="icon-logo" alt="" /></a>
-            <img src={Dev} className="icon-logo" alt="" />
-            <img src={Ux} className="icon-logo" alt="" />
-            {/* <img src={} /> */}
+            <a href="." alt="" title="" className="icon-hover">
+                <img src={Design} className="icon-logo" alt="" />
+            </a>
+            <a href="." alt="" title="" className="icon-hover">
+                <img src={Dev} className="icon-logo" alt="" />
+            </a>
+            <a href="." alt="" title="" className="icon-hover">
+                <img src={Ux} className="icon-logo" alt="" />
+            </a>
         </div>
     );
 }
