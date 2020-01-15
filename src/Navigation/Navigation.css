@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans&display=swap');
+
+
+.nav {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #fff8fb !important;
+}
+
+.navigation-links {
+    font-size: 1.1em;
+    color: #792d57 !important;
+}
+
+.navigation-links:hover {
+    color: #792d57;
+    font-weight: bold;
+    background-color: #fff8fb !important;
+}
+
+.navigation-links:active {
+    font-size: 1em;
+    color: #792d57;
+    background-color: #fff8fb !important;
+    text-decoration: line-through !important; 
+}
+
+.navigation-links:visited {
+    font-size: 1em;
+    color: #792d57;
+    background-color: #fff8fb !important;
+    font-weight: bolder !important;
+}
+
+.navigation-inline {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+    }

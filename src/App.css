@@ -4,6 +4,7 @@
   text-align: center;
   background-color: #fff8fb;
   min-height: 100vh;
+  color: rgb(59, 2, 31);
 }
 
 .App-logo {
@@ -11,15 +12,12 @@
   pointer-events: none;
 }
 
-
-
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(59, 2, 31);
 }
 
 .App-link {
@@ -27,7 +25,7 @@
 }
 
 h1 {
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter', serif !important;
 }
 
 .float-l-img {
