@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import floral3 from './images/floral3.png';
-import Navigation from './Navigation/Navigation.js';
+// import Navigation from './Navigation/Navigation.js';
 import Icons from './Icons/Icons.js';
 import Title from './Title/Title.js';
 
 function App() {
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="App">
         <header className="App-header">
         <img src={floral3} className="App-logo" alt="logo" />

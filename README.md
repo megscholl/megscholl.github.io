@@ -8,8 +8,9 @@
 ### build my portfolio
 1. run `npm install`
 2. run `npm start --open`
-3. i made those graphics
-4. sweet
+3. i made those graphics (not the watercolor....although i'm learning)
+4. #alwayslearning
+5. sweet
 
 ### check my sh out
 1. went to nashville software school
