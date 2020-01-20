@@ -19,6 +19,5 @@
 4. got a job with tn state parks, it's been fun
 5. one-woman team (that's me), cms, html, css, javascript, angularjs -> angular 2 -> angular 6, digital marketing, graphic design
 6. live and work in nashville aka nashvegas aka bachelorette city aka music city aka thanks for paying for our roads #trafficandtaxes aka i want to move
-7. my dad tells me i'm kinda cool
-8. i like coding and design work
-9. rock n roll for life
+7. i like coding and design work
+8. rock n roll for life
