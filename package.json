@@ -14,7 +14,7 @@
     "reactstrap": "^8.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --open",
     "build": "react-scripts build && cp -r build/* .",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -34,6 +34,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-pinterest": "^1.2.0"
   }
 }
