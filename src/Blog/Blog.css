@@ -6,22 +6,26 @@
   
   /* Add a gray background color with some padding */
   .blog-container {
-    padding: 20px;
+    /* padding: 20px !important; */
+    width: 60%;
     /* background: white; */
   }
   
   /* Header/Blog Title */
   .header {
     font-family: 'Bitter', serif;
-    padding: 30px;
+    padding: 40px;
     font-size: 50px !important;
     text-align: center;
     background: rgb(255, 255, 255);
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-
+margin-left: 0px !important;
+margin-right: 0px !important;
   }
+
+
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
