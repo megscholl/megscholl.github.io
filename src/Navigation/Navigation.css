@@ -2,21 +2,28 @@
 
 
 .nav {
+    padding: .5em 1em 0 0;
     font-family: 'Open Sans', sans-serif !important;
     background-color: #fff8fb !important;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .navigation-links {
+    display: flexbox;
+    flex-wrap: row wrap;
     font-size: 1.2em;
     color: #792d57 !important;
     background-color: #fff8fb !important;
 }
 
 .navigation-links:hover {
+    cursor: pointer;
     color: #792d57;
     font-weight: bold;
     background-color: #fff8fb !important;
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
+    text-shadow: 1px 1px 1px 1px;
 }
 
 .navigation-links:active {
@@ -37,7 +44,6 @@
     align-items: center;
 }
 
-
     /* Portrait */
     @media only screen 
     and (min-device-width: 320px) 
@@ -48,6 +54,9 @@
         .nav {
             display: flex;
             justify-content: space-evenly;
+            padding: 0 !important;
+            font-size: 10px;
+            text-transform: uppercase;
         }
         
     }

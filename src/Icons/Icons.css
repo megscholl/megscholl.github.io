@@ -18,6 +18,10 @@
     height: 16vmin;
 }
   
+.social-icons {
+  width: 8vmin;
+  margin: auto;
+}
 
     /* Portrait */
   @media only screen 
@@ -29,6 +33,11 @@
         height: 30vmin;
         pointer-events: none;
         margin: 2em;
+      }
+
+      .social-icons {
+        width: 18vmin;
+        margin: auto;
       }
       
     }

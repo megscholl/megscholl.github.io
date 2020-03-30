@@ -1,29 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import floral3 from './images/floral3.png';
+import {  
+  BrowserRouter as Router,
+  Route, 
+  Switch
+ } from "react-router-dom";
+
 // import Navigation from './Navigation/Navigation.js';
-import Icons from './Icons/Icons.js';
-import Title from './Title/Title.js';
-import BlogPage from './Blog/Blog.js';
+import BlogPage from './Blog/blogPage.js';
+import Home from './Home/Home.js';
+import Contact from './Contact/Contact';
+import Dev from './Dev/Dev';
+import Design from './Design/Design';
+import Error from './404/404';
 
-function App() {
-  return (
-    <div>
-      {/* <Navigation /> */}
-      <div className="App">
-        <header className="App-header">
-        <img src={floral3} className="App-logo" alt="logo" />
-        {/* <h1>hi i'm meg scholl, and i'm a web developer</h1> */}
-        
-          <Title />
-          <Icons />
-          <br />
-          <BlogPage />
+class App extends Component {
+  render() {
+   return (
+      <Router>
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/blog' exact component={BlogPage}/>
+            <Route path='/contact' exact component={Contact}/>
+            <Route path='/dev' exact component={Dev}/>
+            <Route path='/design' exact component={Design}/>
+            <Route path='/' component={Error}/>
+          </Switch>
+      </Router>
+   );
+  }
 
-        </header>
-      </div>
-    </div>
-  );
+
 }
 
 export default App;

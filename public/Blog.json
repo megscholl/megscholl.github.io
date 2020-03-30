@@ -2,24 +2,27 @@
     "data": [
         {
             "id": "1",
-            "title": "Work Ethic",
-            "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "The Acceptance Letter",
+            "subtitle": "",
+            "post": "I received my acceptance email from the Nashville Software School when I turned my phone's airplane mode off from my trip back from London, England. I'm not sure if that was the exact moment I received it, or if it'd been sent a week prior and my roaming allowances never allowed it to actually come through. Even so, I was ecstatic. The gent next to me on the long plane home was saying something to me along the lines of 'thanks for keeping me company during the ride' or 'it was nice to have met you, safe travels.' I know it was generous and heart-warming, but I was giddy with excitement scrolling through my Google Pixel's screen displaying the email from John Wark.",
+            "post2": "I was excited, and also a little frustrated. I'd been warned about 'pre-work', and I kept it in the back of my mind. But the email said we would start January 2nd. The day I received my acceptance was December 15, 2017. I felt slightly doomed. I'd thought the whole time I wasn't going to get in, so I picked up numerous shifts at my job, Christmas was coming up, and I had another trip to Florida with the family... Those aren't exactly the best conditions for staring at my computer watching and learning, crunching down on any type of work at all, especially coding... But, I did it anyways. I said Merry Christmas to the patrons that handed over generous and not-so-generous holiday tips, I giggled with my 10 month old nephew on Christmas morning, I flew to Naples to see family I hadn't seen in a long time, and... I worked on my pre-work. It was a lot of activities to do with not a lot of time to do so.",
+            "post3": "Nevertheless, the first day of class came around and as I walked into the classroom I felt a sudden awe, hope and gratitude. I was there, I was here, I was surrounded by others with the same vision, and I was lucky. I felt so astonishingly lucky to be there, and I made it by a hair. And to top that all off, I'd recognized half of my pre-work due to the two classes I'd taken that fall at my local community college. These classes were honestly just for kicks, to gain vocabulary in the field, and to get me started if I were to get into the program. That was a pretty awesome play by me. I'm pretty smart, and I'll only get smarter from here.",
             "image": "",
-            "date": ""
+            "date": "January 1, 2018",
+            "year": "2018"
+
         },
         {
             "id": "2",
-            "title": "Impostor Syndrome",
-            "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "title": "Freelance & Documentation",
+            "subtitle": "Learning more about myself and what I need to be successful as a Developer and Designer",
+            "post": "The first 'job' I had as a developer was when I worked as a freelancer, redesigning their website and eventually doing frontend development. The redesign was exciting, and I enjoyed their feedback when it came to the ideas that I had for their website. They were happy with my prototypes, and I was looking forward to get started to development.",
+            "post2": "This was when I learned that documentation is key to any successful development. If you don't provide a new developer or designer documentation on how to build your site for them to work on it, it's going to get a little weird. For 6 hours, I researched errors that I was getting (keep in mind, I'm straight out of software school), and I had literally no idea what was wrong. I even went to the software school I had just graduated from, met with the Senior Developer of the school, and after over an hour of researching together, even he had no idea what was throwing errors. It turned out the project called for an entirely different framework than what I was told was required, which of course meant the commands were completely different. Oh, and I should be working in a VM. A what? A Virtual Machine. What on earth--",
+            "post3": "So, although I was burnt out pretty quickly with their lack of support, knowledge, and just project management in general... I couldn't and still can't blame them. They had high hopes, big ideas, but just lacked the knowledge of how to implement them. I will always remind myself how much I benefitted from that job, because if it weren't for the experiences I had with those few hours, then I wouldn't understand how important and necessary documentation is.",
             "image": "",
-            "date": ""
-        },
-        {
-            "id": "3",
-            "title": "Getting Hired",
-            "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "image": "",
-            "date": ""
+            "date": "August 24, 2018",
+            "year": ""
+
         }
     ]
 }

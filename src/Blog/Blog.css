@@ -7,12 +7,13 @@
   /* Add a gray background color with some padding */
   .blog-container {
     /* padding: 20px !important; */
-    width: 60%;
+    width: 80%;
     /* background: white; */
   }
   
   /* Header/Blog Title */
   .header {
+    width: 100%;
     font-family: 'Bitter', serif;
     padding: 40px;
     font-size: 50px !important;
@@ -21,31 +22,40 @@
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-margin-left: 0px !important;
-margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 
+  .column-container {
+    padding: 15px;
+  }
+
+  .followme {
+    text-align: center;
+  }
 
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 70%;
   }
   
   /* Right column */
   .rightcolumn {
     float: left;
-    width: 25%;
+    width: 30%;
     padding-left: 20px;
   }
   
   /* Fake image */
   .fakeimg {
+    background-image: url("https://media0.giphy.com/media/mlvseq9yvZhba/giphy.gif");
     background-color: rgb(184, 124, 157);
     width: 100%;
     padding: 20px;
+    height: 100%;
   }
 
   .selfimg {
@@ -53,6 +63,14 @@ margin-right: 0px !important;
     margin: auto;
   }
   
+  .about-section {margin: 1rem;}
+
+  .emojis {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
   /* Add a card effect for articles */
   .card {
      background-color: white;
@@ -66,6 +84,12 @@ margin-right: 0px !important;
 
     p {
         font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .posts {
+      text-indent: 1em;
     }
   
   /* Clear floats after the columns */
@@ -90,3 +114,22 @@ margin-right: 0px !important;
       padding: 0;
     }
   }
+
+
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+      .blog-container {
+        padding: 20px !important;
+        width: 100%;
+        /* background: white; */
+      }
+        
+    }@media screen and (min-width: 1400px) {
+      .blog-container {
+        width: 65%;
+      }
+    }

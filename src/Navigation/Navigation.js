@@ -1,24 +1,28 @@
-import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import React, { Component } from 'react';
+import { Nav, NavItem} from 'reactstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigation.css';
 
-const Navigation = (props) => {
-  return (
-    <div className="nav">
-      <Nav className="navigation-inline">
-          <NavItem >
-            <NavLink className="navigation-links" href="#">About Me</NavLink>
+
+class Navigation extends Component {
+  render() {
+    return (
+      <div className="nav">
+        <Nav className="navigation-inline">
+          <NavItem>
+            <Link to="/" className="navigation-links" alt="go home" title="go home">Home</Link>
           </NavItem>
-          <NavItem >
-            <NavLink className="navigation-links" href="#">Contact</NavLink>
+          <NavItem>
+            <Link to="/blog" alt="blog page" title="blog page" className="navigation-links">Blog</Link>
           </NavItem>
-          <NavItem >
-            <NavLink className="navigation-links" href="#">Blog</NavLink>
+          <NavItem>
+            <Link to="/contact" alt="blog page" title="blog page" className="navigation-links">Contact</Link>
           </NavItem>
-      </Nav>
-    </div>
-  );
+        </Nav>
+      </div>
+    )
+  }
 }
 
 export default Navigation;
