@@ -24,7 +24,7 @@
 
 
 ## reminder to myself: deploying
-1. `npm run deploy`
 1. `git add .`
 1. `git commit -m "...merp..."`
 1. `git push origin *branch*`
+1. `npm run deploy`

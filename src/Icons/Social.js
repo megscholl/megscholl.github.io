@@ -4,7 +4,7 @@ import L from '../images/icons/linkedin.png'
 import P from '../images/icons/pinterest.png'
 
 let linkedin = 'https://www.linkedin.com/in/meg-scholl/';
-let pinterest = 'https://www.pinterest.com/iifge/code-design-ux/';
+let pinterest = 'https://www.pinterest.com/meghscholl/code-design-ux/';
 
 const SocialIcons = () => {
     return (
