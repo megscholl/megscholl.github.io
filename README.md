@@ -21,3 +21,10 @@
 6. live and work in nashville aka nashvegas aka bachelorette city aka music city aka thanks for paying for our roads #trafficandtaxes aka i want to move
 7. i like coding and design work
 8. rock n roll for life
+
+
+## reminder to myself: deploying
+1. `npm run deploy`
+1. `git add .`
+1. `git commit -m "...merp..."`
+1. `git push origin *branch*`
