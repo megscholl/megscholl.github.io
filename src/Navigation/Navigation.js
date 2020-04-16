@@ -19,6 +19,9 @@ class Navigation extends Component {
           <NavItem>
             <Link to="/contact" alt="blog page" title="blog page" className="navigation-links">Contact</Link>
           </NavItem>
+          <NavItem>
+              <img src="https://hitwebcounter.com/counter/counter.php?page=7231526&style=0007&nbdigits=3&type=page&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" />                                          
+          </NavItem>
         </Nav>
       </div>
     )
